@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pec-timetable.onrender.com/sitemap.xml

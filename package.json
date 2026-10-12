@@ -1,0 +1,12 @@
+{
+  "name": "pec-chatbot-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix pec-bot-server run dev & npm --prefix pec-bot-client run dev",
+    "dev:client": "npm --prefix pec-bot-client run dev",
+    "dev:server": "npm --prefix pec-bot-server run dev",
+    "build:client": "npm --prefix pec-bot-client run build",
+    "start:server": "npm --prefix pec-bot-server run start"
+  }
+}
